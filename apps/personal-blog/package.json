@@ -37,6 +37,6 @@
   },
   "workspaces": [
     "plugins/*",
-    "records"
+    "record"
   ]
 }
