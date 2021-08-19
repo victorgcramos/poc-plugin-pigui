@@ -1,17 +1,7 @@
 {
-  "name": "plugin-pigui",
-  "version": "1.0.0",
+  "name": "politeiagui",
+  "version": "0.0.1",
+  "description": "hackable records!",
   "main": "index.js",
-  "author": "Victor Guedes <victorgcramos@gmail.com>",
-  "license": "MIT",
-  "type": "module",
-  "private": "true",
-  "devDependencies": {
-    "lerna": "^4.0.0"
-  },
-  "workspaces": [
-    "plugins/*",
-    "record",
-    "apps/*"
-  ]
+  "private": true
 }
