@@ -1,0 +1,24 @@
+{
+  "name": "pi",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Victor Guedes <victorgcramos@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/pi.js",
+  "source": "lib/pi.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "dev": "microbundle watch --jsx React.createElement lib/*.js"
+  },
+  "devDependencies": {
+    "microbundle": "^0.13.3"
+  }
+}

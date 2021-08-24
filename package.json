@@ -12,10 +12,12 @@
     "webpack": "^5.51.1"
   },
   "workspaces": [
-    "packages/*"
+    "plugins/*",
+    "core/*",
+    "apps/*"
   ],
   "scripts": {
-    "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.spec.js",
+    "build": "lerna exec --parallel -- babel --root-mode upward src -d dist --ignore **/*.spec.js",
     "bootstrap": "lerna bootstrap --use-workspaces"
   }
 }
